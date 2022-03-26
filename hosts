@@ -1,5 +1,5 @@
-client1 ansible_host=192.168.1.23 ansible_user=hegabovic ansible_password=Hegabo192 ansible_become_password=Hegabo192 custom_host_name=client1
-client2 ansible_host=192.168.1.24 ansible_user=hegabovic ansible_password=Hegabo192 ansible_become_password=Hegabo192 custom_host_name=client2
+client1 ansible_host=192.168.1.4 ansible_user=hegabovic ansible_password=Hegabo192 ansible_become_password=Hegabo192 custom_host_name=client1
+client2 ansible_host=192.168.1.6 ansible_user=hegabovic ansible_password=Hegabo192 ansible_become_password=Hegabo192 custom_host_name=client2
 
 [single]
 client1

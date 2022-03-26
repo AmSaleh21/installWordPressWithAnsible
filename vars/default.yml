@@ -9,6 +9,6 @@ mysql_user: "root"
 mysql_password: "root"
 
 #HTTP Settings
-http_host: "192.168.1.23"
-http_conf: "client2.conf"
+http_host: "{{ custom_host_name  }}"
+http_conf: "{{ custom_host_name  }}.conf"
 http_port: "80"
