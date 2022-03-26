@@ -49,6 +49,6 @@ http_port: "80"
 ### 3. Run the Playbook
 
 ```command
-ansible-playbook -l [target] -i [inventory file] -u [remote user] playbook.yml
+ansible-playbook -i <hosts file> <YAML file>
 ```
 
